@@ -1,0 +1,17 @@
+O_NONBLOCK
+    maemo@maemo-desktop:~/mycode/trial_async$ ./a.out 
+    read OK!
+    write OK!
+    hello
+    read OK!
+    write OK!
+    read OK!
+    write OK!
+    ...
+
+FASYNC
+    maemo@maemo-desktop:~/mycode/trial_async$ ./a.out 
+    hello
+    read OK!
+    hello
+    write OK!
